@@ -1,0 +1,16 @@
+.Search {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+.Search__input {
+    height: 30px;
+    width: 200px;
+    margin: 1rem;
+    text-indent:5px;
+}
+.text-color-white {
+    color: var(--white);
+}

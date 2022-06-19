@@ -1,0 +1,80 @@
+.characters {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 320px);
+    justify-content: center;
+    justify-items: center;
+    min-height: 100vh;
+    padding: 5px;
+}
+.character {
+    margin: 10px 0;
+    height: 574px;
+    width: 300px;
+    background-color: var(--soft-blue);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.character--name {
+    font-size: 3rem;
+}
+h2 {
+    margin: 1.5rem 30px;
+    
+}
+.information {
+    margin:  0 30px;
+    text-align: left;
+    font-size: 3rem;
+}
+.information__strong {
+    font-size: 2rem;
+}
+.character-darkTheme {
+    background-color: var(--dark-blue);
+}
+.image-container {
+    position: relative;
+}
+.add-button{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    height: 30px;
+    width: 120px;
+    background-color: var(--soft-black);
+    border: 2px solid var(--white);
+    color:  var(--white);
+    font-size: 1.4rem;
+}
+
+.favorites {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 30px;
+    margin: 0.5rem;
+    padding: 0 3rem;
+}
+.favorites--title {
+    color: var(--soft-black);
+    font-size: 2rem;
+    margin: 0.2rem 0;
+}
+.favorites--list {
+    color: var(--soft-black);
+    display: flex;
+    flex-flow: wrap;
+    align-self: center;
+}
+.favorites--list li {
+    list-style: none;
+    font-size: 1.6rem;
+    padding: 0.5rem;
+}
+.favorites--list li:after {
+    content: ' |';
+}
+.favorites-light {
+    color: var(--white);
+}
